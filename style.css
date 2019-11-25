@@ -1,22 +1,22 @@
-html {
-  font-size: 10px;
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
-  background-size: cover;
+
+
+.drums{
+  background: url(drums.png);
+  text-align: center;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 600px;
+  min-height: 95vh;
 }
 
 body,html {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  width: 100%;
 }
 
-.keys {
-  display: flex;
-  flex: 1;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: center;
-}
 
 .key {
   border: .4rem solid black;

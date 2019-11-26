@@ -36,15 +36,45 @@ body,html {
   width: 100%;
 }
 
-
-.sound {
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  letter-spacing: .1rem;
-  color: #ffc600;
+.key{
+  background-color: transparent;
+  padding: 15px 50px;
+  border: 0;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
 }
+
+.key:focus{
+  outline: 0;
+}
+
 #ride{
   position: absolute;
-  left:250px;
-  top: 235px;
+  left:200px;
+  top: 220px;
+  padding: 30px 80px;
+}
+#boom{
+  position: absolute;
+  left:330px;
+  top: 510px;
+  padding: 100px;
+}
+#snare{
+  position: absolute;
+  left: 520px;
+  top: 410px;
+  padding: 30px 70px;
+}
+#hihat{
+  position: absolute;
+  left:670px;
+  top: 330px;
+}
+#tom{
+  position: absolute;
+  left:270px;
+  top: 385px;
+  padding: 60px;
 }

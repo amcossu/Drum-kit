@@ -8,6 +8,25 @@
   background-size: 600px;
   min-height: 95vh;
 }
+@media screen and (min-width: 640px) and (max-width: 768px) {
+  .drums {
+    background-position: center;
+    background-size: 500px;
+    min-height: 100vh;
+  }
+}
+@media screen and (max-width: 370px) {
+  h1 {
+    font-size: 2em!important;
+  }
+  h2 {
+    font-size: 1.5em!important;
+  }
+  .drums {
+    background-size: 300px;
+    min-height: 70vh;
+  }
+}
 
 body,html {
   margin: 0;

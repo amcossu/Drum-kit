@@ -1,9 +1,8 @@
-
 function playSound() {
-  const KEYCODE = this.getAttribute('data-key');
-  const AUDIO = document.querySelector(`audio[data-key="${KEYCODE}"]`);
-  AUDIO.currentTime = 0; 
-  AUDIO.play();
+  let keyCode = this.getAttribute('data-key');
+  let sound = document.querySelector(`audio[data-key="${keyCode}"]`);
+  sound.currentTime = 0; 
+  sound.play();
 }
 
 const KEYS = document.querySelectorAll(".key");
